@@ -1,0 +1,34 @@
+# Ignore cache, logs, vendor, uploads, backups
+/application/cache/
+/application/logs/
+/vendor/
+/backup/
+/uploads/
+/storage/
+/node_modules/
+
+# Ignore environment and config
+.env
+*.env
+application/config/database.php
+
+# Ignore archives and backups
+*.zip
+*.tar.gz
+*.bak
+*.sql
+*.sql.gz
+
+# IDE/editor settings
+.vscode/
+*.log
+*.sublime-workspace
+*.sublime-project
+
+# Exceptions (if needed)
+!application/logs/index.html
+!application/logs/.htaccess
+
+# Optional: specific files to keep
+!application/logs/admin_surat.txt
+!application/logs/tes.php
